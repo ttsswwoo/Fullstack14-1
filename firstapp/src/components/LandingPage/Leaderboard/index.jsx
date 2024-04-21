@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import Person1 from "../../../assets/imgs/leaderboard/imo1.png"
-import Person2 from "../../../assets/imgs/leaderboard/imo1.png"
-import Person3 from "../../../assets/imgs/leaderboard/imo1.png"
-import Person4 from "../../../assets/imgs/leaderboard/imo1.png"
-import Person5 from "../../../assets/imgs/leaderboard/imo1.png"
+import Person2 from "../../../assets/imgs/leaderboard/imo2.png"
+import Person3 from "../../../assets/imgs/leaderboard/imo3.png"
+import Person4 from "../../../assets/imgs/leaderboard/imo4.png"
+import Person5 from "../../../assets/imgs/leaderboard/imo5.png"
 
 import User from "./User.jsx"
 import "./style.scss"
