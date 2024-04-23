@@ -1,0 +1,66 @@
+$dark: black;
+$red: linear-gradient(to right, #ff56bb, #ff8f77);
+.thmeSwitcher {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    .switcher {
+        width: 42xp;
+        height: 22px;
+        display: flex;
+        background: $dark;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        .icon {
+            font-style: 1.4em;
+        }
+        .circle {
+            left: 1px;
+            width: 20px;
+            height: 20px;
+            transition: 0.3s;
+            position: absolute;
+            border-radius: 50%;
+            background-color: $red;
+        }
+        input[type="checkbox"] {
+            z-index: 2;
+            opacity: 0;
+            width: 42px;
+            height: 22px;
+            position: absolute;
+            border-radius: 10px;
+            &:checked+.circle {
+                left: 21px;
+            }
+        }
+    }
+}
+
+.dark {
+    color: white;
+    background: black;
+    display: inline-block;
+}
+
+.light {
+    color: $dark;
+    background: white;
+    display: inline-block;
+}
+
+.container {
+    button {
+        color: black;
+        transition: 0.3s;
+        &:active {
+            transform: scale(0.6);
+        }
+    }
+    span {
+        padding: 10px;
+        margin: 0 10px;
+        background: #333;
+    }
+}

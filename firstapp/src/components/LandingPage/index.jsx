@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import Ownership from "./Ownership"
 import Leaderboard from "./Leaderboard"
+import Explore from "./Explore";
 import "./style.scss"
 
 function LandingPage() {
