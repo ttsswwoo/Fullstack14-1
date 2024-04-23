@@ -1,4 +1,9 @@
 /* eslint-disable react/prop-types */
+<<<<<<< HEAD
+=======
+import Eth from "../../../assets/icons/Etherium.png"
+
+>>>>>>> 014bd9ab03532b627cde7bcb7d759b1cc766ae53
 function User(props) {
     return (
         <div className="user-l">

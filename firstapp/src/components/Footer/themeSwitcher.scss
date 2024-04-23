@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $dark: black;
 $red: linear-gradient(to right, #ff56bb, #ff8f77);
 .thmeSwitcher {
@@ -32,6 +33,50 @@ $red: linear-gradient(to right, #ff56bb, #ff8f77);
             position: absolute;
             border-radius: 10px;
             &:checked+.circle {
+=======
+$dark: #151515;
+$red: linear-gradient(to right, #ff56bb, #ff8f77);
+
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    .icon {
+        font-size: 1.4em;
+    }
+
+    .switcher {
+        position: relative;
+        width: 42px;
+        height: 22px;
+        background-color: $dark;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: $red;
+            position: absolute;
+            left: 1px;
+            transition: 0.3s;
+            z-index: 1;
+        }
+
+        input[type="checkbox"] {
+            width: 42px;
+            height: 22px;
+            border-radius: 10px;
+            position: absolute;
+            opacity: 0;
+            z-index: 2;
+
+            &:checked + .circle {
+>>>>>>> 014bd9ab03532b627cde7bcb7d759b1cc766ae53
                 left: 21px;
             }
         }
@@ -39,6 +84,7 @@ $red: linear-gradient(to right, #ff56bb, #ff8f77);
 }
 
 .dark {
+<<<<<<< HEAD
     color: white;
     background: black;
     display: inline-block;
@@ -48,6 +94,14 @@ $red: linear-gradient(to right, #ff56bb, #ff8f77);
     color: $dark;
     background: white;
     display: inline-block;
+=======
+    background-color: gray;
+    color: white;
+}
+.light {
+    background-color: white;
+    color: $dark;
+>>>>>>> 014bd9ab03532b627cde7bcb7d759b1cc766ae53
 }
 
 .container {
@@ -60,7 +114,16 @@ $red: linear-gradient(to right, #ff56bb, #ff8f77);
     }
     span {
         padding: 10px;
+<<<<<<< HEAD
         margin: 0 10px;
         background: #333;
     }
 }
+=======
+        background-color: #333;
+        color: snow;
+        margin: 0 10px;
+        border-radius: 50%;
+    }
+}
+>>>>>>> 014bd9ab03532b627cde7bcb7d759b1cc766ae53
