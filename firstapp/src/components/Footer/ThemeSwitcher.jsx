@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import './themeSwitcher.scss'
 
-
-
 function ThemeSwitcher() {
     const [theme, setTheme] = useState('light')
     const [counter, setCounter] = useState(0)
 
-
-    function switcher(e) {
+    function switcher() {
         if (theme === 'light') {
             setTheme('dark')
         } else {
@@ -39,7 +36,6 @@ function ThemeSwitcher() {
 
                 <span className='icon'>🌙</span>
             </div>
-
 
             <div className="container">
                 <button onClick={changeCounter} role="dec">Decrement</button>
