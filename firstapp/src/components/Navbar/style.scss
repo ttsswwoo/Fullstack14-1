@@ -9,25 +9,21 @@ header {
     nav {
         @include flex(row, space-between, center);
         padding: 50px 200px;
-
         a {
             padding: 10px 20px;
             border: none;
             outline: none;
         }
-
         .left-nav,
         .right-nav {
             @include flex(row, center, center);
         }
-
         .search-input {
             background-color: #f3f3f3;
             @include flex(row, center, center);
             padding: 5px 5px 5px 10px;
             border-radius: 10px;
             margin-left: 20px;
-
             input {
                 border-radius: 6px;
                 background-color: #f3f3f3;
@@ -35,7 +31,6 @@ header {
                 padding: 5px 10px;
                 border: none;
                 outline: none;
-
                 &::placeholder {
                     color: #a0a0a0;
                 }

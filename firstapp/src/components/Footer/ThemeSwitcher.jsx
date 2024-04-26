@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react'
 import './themeSwitcher.scss'
 
@@ -27,21 +28,21 @@ function ThemeSwitcher() {
     return (
         <div className={theme}>
             <div className="theme-switcher">
-                <span className='icon'>☀️</span>
+                {/* <span className='icon'>☀️</span>
 
                 <div onClick={switcher} className="switcher" >
                     <input type="checkbox" />
                     <span className='circle'></span>
-                </div>
+                </div> */}
 
-                <span className='icon'>🌙</span>
+                {/* <span className='icon'>🌙</span> */}
             </div>
 
-            <div className="container">
+            {/* <div className="container">
                 <button onClick={changeCounter} role="dec">Decrement</button>
                 <span>{counter}</span>
                 <button onClick={changeCounter} role="inc">Increment</button>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -7,7 +7,7 @@ import './style.scss'
 function Ownership() {
     return (
         <div className="ownership-wrapper">
-            <div className="left">
+            <div className="left1">
                 <small>WEB 3 NON-FUNGIBLE TOKENS</small>
                 <h1>Unlock Unique Digital Ownership with NFTs</h1>
                 <p>Experience the Revolutionary World of Non-Fungible Tokens on Our Exclusive NFT Marketplace</p>

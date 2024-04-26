@@ -1,18 +1,13 @@
 .ownership-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    .left {
+    .left1 {
         text-align: left;
-        padding: 20px 100px 20px 200px;
+        padding: 20px 100px 20px 160px;
         font-family: sans-serif;
-
         small {
             color: gray;
             letter-spacing: 1px;
-        }
-        h1 {
-            // TODO: Do this next lesson
         }
         p {
             color: #444;
@@ -23,10 +18,8 @@
     }
     .right {
         position: relative;
-
         div {
-            margin-left: 100px;
-
+            margin-left: 200px;
             .ball {
                 position: absolute;
             }

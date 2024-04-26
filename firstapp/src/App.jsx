@@ -1,21 +1,19 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import LandingPage from './components/LandingPage'
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-no-undef */
+import { BrowserRouter } from 'react-router-dom'
+import AllComponents from './components/AllComponents'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <LandingPage />
-      <Footer />
+      <BrowserRouter>
+        <AllComponents />
+      </BrowserRouter>
     </>
   )
 }
 
 export default App
-
-
-
 
 {/* 
     git checkout -b 'adding-side-bar' 
@@ -23,4 +21,3 @@ export default App
     git commit -m "Added Navbar and LandingPage components"
     git push
 */}
-

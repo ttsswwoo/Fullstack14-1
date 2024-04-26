@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import Ownership from "./Ownership"
 import Leaderboard from "./Leaderboard"
-import Trendingart from "./Trendingart"
 import './style.scss'
 
 function Collections() {
@@ -9,7 +8,6 @@ function Collections() {
         <>
             <Ownership />
             <Leaderboard />
-            <Trendingart />
             <div className="container">
                 <h1>Featured Collections</h1>
             </div>

@@ -1,25 +1,20 @@
 $dark: #191919;
-
 .leaderboard {
     margin: 100px 0;
     text-align: center;
     background-color: $dark;
     color: #ffffff;
     padding: 50px 0;
-
     h2 {
         margin-bottom: 100px;
     }
-
     .users {
-        padding: 0 200px;
+        padding: 0 110px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 10px;
-
         .user-l {
             position: relative;
-
             .number {
                 position: absolute;
                 width: 10px;
@@ -35,21 +30,17 @@ $dark: #191919;
                 left: 44%;
                 top: -10px;
             }
-
             .picture {
                 width: 130px;
                 height: 130px;
             }
-
             .info {
                 position: relative;
                 top: -5px;
-
                 h3,
                 p {
                     line-height: 0.8em;
                 }
-
                 .crypto-balance {
                     img {
                         position: relative;
