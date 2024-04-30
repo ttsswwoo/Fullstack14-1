@@ -1,11 +1,11 @@
 import "./style.scss"
 
-function Explore() {
+function Explore(props) {
     return (
         <>
-        <div className="logo">
-            <h1>Explore</h1>
-            <button>Recently Added</button>
+        <div className="explore-wrapper">
+            <h1></h1>
+            <p></p>
         </div>
         </>
     );

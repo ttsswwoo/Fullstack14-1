@@ -5,12 +5,14 @@
 
 import './style.scss'
 import Logo from "../common/Logo"
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <header>
             <nav>
                 <div className="left-nav">
+                    <Link to ='/'></Link>
                     <a href="#logo">
                         <Logo />
                     </a>

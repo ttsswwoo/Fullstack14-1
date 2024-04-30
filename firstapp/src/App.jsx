@@ -1,15 +1,11 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-no-undef */
 import { BrowserRouter } from 'react-router-dom'
-import AllComponents from './components/AllComponents'
+import AllComponents from "./components/AllComponents"
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <AllComponents />
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <AllComponents />
+    </BrowserRouter>
   )
 }
 

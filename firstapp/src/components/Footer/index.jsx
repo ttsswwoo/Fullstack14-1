@@ -4,8 +4,29 @@ import ThemeSwitcher from './ThemeSwitcher.jsx'
 import Frame from '../../components/Footer/Frame 3848.png'
 
 import "./style.scss"
+import { useState } from 'react'
 
 function Footer(props) {
+    const [range, setRange] = useState(0);
+    const [color, setColor] = useState("");
+    const [translate, setTranslate] = useState(0);
+    const [font, setFont] = useState({});
+
+
+    function rangeHandler(event) {
+        let fontStyle = {fontSize: "1.5rem", fontWeight: "bold"};
+
+        if (parseInt(range) > parseInt(event.target.value)) {
+            setColor("red")
+            setFont({})
+        } else {
+            setColor("green")
+            setFont(fontStyle)
+        }
+        setRange(event.target.value);
+        setTranslate(event.target.value);
+    }
+
     return (
         <>
             {/* Explore ================================= */}
