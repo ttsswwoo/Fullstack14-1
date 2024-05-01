@@ -254,7 +254,6 @@ function Footer(props) {
 
                 <ThemeSwitcher />
 
-<<<<<<< HEAD
                 <div className="second">
                     <ul>
                         <h3>Company</h3>
@@ -280,17 +279,5 @@ function Footer(props) {
                 </div>
             </div >
         </>
-=======
-                <p>
-                    <span>©️</span>
-                    <small>Copyright NFT Distro 2023</small> 
-                </p>
-            </div>
-            <div className="right">
-            </div>
-        </footer>
->>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
-    );
-}
 
 export default Footer;

@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 import Ownership from "./Ownership"
+import TrendingArt from "./TrendingArt";
+import Collections from "./Collections";
 import Leaderboard from "./Leaderboard"
 import Explore from "./Explore";
 import "./style.scss"
@@ -8,6 +10,8 @@ function LandingPage() {
     return (
         <>
             <Ownership />
+            <TrendingArt/>
+            <Collections/>
             <Leaderboard />
             <div className="logo">
                 <h1>Trending Art 🔥</h1>
