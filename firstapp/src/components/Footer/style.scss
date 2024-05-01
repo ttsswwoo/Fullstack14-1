@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     // LOGO
     .explore {
         width: 80%;
@@ -184,3 +185,12 @@
     .fourth {
         margin-right: 6%;
     }
+=======
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 0 200px;
+    background: linear-gradient(to bottom, #fff, lightgray);
+}
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c

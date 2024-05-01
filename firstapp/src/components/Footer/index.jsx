@@ -7,26 +7,6 @@ import "./style.scss"
 import { useState } from 'react'
 
 function Footer(props) {
-    const [range, setRange] = useState(0);
-    const [color, setColor] = useState("");
-    const [translate, setTranslate] = useState(0);
-    const [font, setFont] = useState({});
-
-
-    function rangeHandler(event) {
-        let fontStyle = {fontSize: "1.5rem", fontWeight: "bold"};
-
-        if (parseInt(range) > parseInt(event.target.value)) {
-            setColor("red")
-            setFont({})
-        } else {
-            setColor("green")
-            setFont(fontStyle)
-        }
-        setRange(event.target.value);
-        setTranslate(event.target.value);
-    }
-
     return (
         <>
             {/* Explore ================================= */}
@@ -274,6 +254,7 @@ function Footer(props) {
 
                 <ThemeSwitcher />
 
+<<<<<<< HEAD
                 <div className="second">
                     <ul>
                         <h3>Company</h3>
@@ -299,6 +280,16 @@ function Footer(props) {
                 </div>
             </div >
         </>
+=======
+                <p>
+                    <span>©️</span>
+                    <small>Copyright NFT Distro 2023</small> 
+                </p>
+            </div>
+            <div className="right">
+            </div>
+        </footer>
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
     );
 }
 

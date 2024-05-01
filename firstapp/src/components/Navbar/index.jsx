@@ -5,29 +5,42 @@
 
 import './style.scss'
 import Logo from "../common/Logo"
+<<<<<<< HEAD
 import {Link} from 'react-router-dom'
+=======
+import { Link } from "react-router-dom"
+import Searchbar from "../common/Searchbar"
+
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
 
 function Navbar() {
+
+    function activateLink(e) {
+        let slash = e.target.href.lastIndexOf("/")
+        let href = e.target.href.slice(slash)
+        console.log(href)
+    }
+
     return (
         <header>
             <nav>
                 <div className="left-nav">
+<<<<<<< HEAD
                     <Link to ='/'></Link>
                     <a href="#logo">
+=======
+                    <Link to="/">
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
                         <Logo />
-                    </a>
+                    </Link>
 
-                    <div className="search-input">
-                        <div className="left">🔍</div>
-                        <div className="right">
-                            <input type="search" placeholder="Search" />
-                        </div>
-                    </div>
+                    <Searchbar />
                 </div>
                 <div className="right-nav">
-                    <a href="#explore">Explore</a>
-                    <a href="#trending">Trending🔥</a>
-                    <a href="#FAQ">FAQ</a>
+                    <Link onClick={activateLink} to="/about">About</Link>
+                    <Link onClick={activateLink} to="/explore">Not explore</Link>
+                    <Link onClick={activateLink} to="/trending">Trending🔥</Link>
+                    <Link onClick={activateLink} to="/FAQ">FAQ</Link>
                 </div>
             </nav>
         </header>

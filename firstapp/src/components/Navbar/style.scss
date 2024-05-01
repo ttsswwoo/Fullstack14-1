@@ -18,6 +18,7 @@ header {
         .right-nav {
             @include flex(row, center, center);
         }
+<<<<<<< HEAD
         .search-input {
             background-color: #f3f3f3;
             @include flex(row, center, center);
@@ -36,5 +37,7 @@ header {
                 }
             }
         }
+=======
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
     }
 }

@@ -2,10 +2,13 @@
 import { useState } from 'react'
 import './themeSwitcher.scss'
 
+<<<<<<< HEAD
+=======
+
+// eslint-disable-next-line no-unused-vars
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
 function ThemeSwitcher() {
     const [theme, setTheme] = useState('light')
-    const [counter, setCounter] = useState(0)
-    const [redGreen, setRedGreen] = useState('white')
 
     function switcher() {
         if (theme === 'light') {
@@ -15,18 +18,6 @@ function ThemeSwitcher() {
         }
     }
 
-    function changeCounter(e) {
-        const role = e.target.getAttribute('role')
-        if (role == 'inc') {
-            setCounter(counter + 1)
-            setRedGreen('greenyellow')
-        } else if (role == 'dec') {
-            setCounter(counter - 1)
-            setRedGreen('red')
-        } else {
-            console.log("Invalid role")
-        }
-    }
 
     return (
         <div className={theme}>
@@ -40,12 +31,15 @@ function ThemeSwitcher() {
 
                 {/* <span className='icon'>🌙</span> */}
             </div>
+<<<<<<< HEAD
 
             {/* <div className="container">
                 <button onClick={changeCounter} role="dec">Decrement</button>
                 <span style={{color:redGreen}}>{counter}</span>
                 <button onClick={changeCounter} role="inc">Increment</button>
             </div> */}
+=======
+>>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
         </div>
     );
 }
