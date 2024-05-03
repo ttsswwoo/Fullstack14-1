@@ -1,60 +1,62 @@
-.logo {
-    width: 79%;
-    margin: 10% 10% 0;
-    font-weight: bold;
-    align-items: center;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    .left2 {
-        margin: 8%;
-        display: flex;
-        align-items: center;
-        img {
-            width: 15%;
-            height: 5vh;
-            margin: 0 -5%;
-        }
-        p {
-            margin-left: 10%;
-        }
-    }
-    .right2 {
-        width: 30%;
-        margin: -28% 68%;
-        text-align: center;
-        small {
-            color: gray;
-        }
-    }
-    .card-1,
-    .card-2,
-    .card-3,
-    .card-4 {
-        width: 280px;
-        height: 55vh;
-        margin-top: 2%;
-        padding: 0 0px;
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0px 0px 20px 0px #C5C5C5;
-    }
-    .card-2,
-    .card-3,
-    .card-4 {
-        margin-left: 2%;
-    }
-    .img>img {
-        width: 260px;
-        height: 32vh;
-        margin: 10px 3.5%;
-        border-radius: 15px;
-    }
-    p {
-        font-size: 17px;
-        margin: 6% 5%;
-        font-weight: bold;
-    }
-}
+ @import "../../assets/styles/settings";
+ main.landing-page-wrapper {
+     .logo {
+         width: 79%;
+         margin: 10% 10% 0;
+         font-weight: bold;
+         align-items: center;
+     }
+     .cards {
+         display: flex;
+         justify-content: center;
+         .left2 {
+             margin: 8%;
+             display: flex;
+             align-items: center;
+             img {
+                 width: 15%;
+                 height: 5vh;
+                 margin: 0 -5%;
+             }
+             p {
+                 margin-left: 10%;
+             }
+         }
+         .right2 {
+             width: 30%;
+             margin: -28% 68%;
+             text-align: center;
+             small {
+                 color: gray;
+             }
+         }
+         .card-1,
+         .card-2,
+         .card-3,
+         .card-4 {
+             width: 280px;
+             height: 55vh;
+             margin-top: 2%;
+             padding: 0 0px;
+             background: #fff;
+             border-radius: 12px;
+             box-shadow: 0px 0px 20px 0px #C5C5C5;
+         }
+         .card-2,
+         .card-3,
+         .card-4 {
+             margin-left: 2%;
+         }
+         .img>img {
+             width: 260px;
+             height: 32vh;
+             margin: 10px 3.5%;
+             border-radius: 15px;
+         }
+         p {
+             font-size: 17px;
+             margin: 6% 5%;
+             font-weight: bold;
+         }
+     }
+ }

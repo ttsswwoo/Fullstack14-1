@@ -11,7 +11,10 @@ import "./style.scss"
 function Leaderboard() {
     return (
         <section className="leaderboard">
-            <h1>Leaderboard of the week</h1>
+            <div className="size">
+
+            <h2>Leaderboard of the Week</h2>
+
             <div className="users">
                 <User name={"Perperzon"} balance={9.421} picture={Person1} />
                 <User name={"Richard"} balance={9.421} picture={Person2} />
@@ -21,6 +24,7 @@ function Leaderboard() {
                     <h1>Hello world</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat cupiditate doloribus facilis architecto quasi itaque.</p>
                 </User>
+            </div>
             </div>
         </section>
     );

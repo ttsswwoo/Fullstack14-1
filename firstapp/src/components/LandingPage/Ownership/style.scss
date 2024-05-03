@@ -1,7 +1,10 @@
+@import "../../../assets/styles/settings";
 .ownership-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    .left1 {
+    @include grid($columns: 2, $size: 1fr);
+    @include wave($light, $gray-l);
+    width: 1500px;
+    margin: 0 auto;
+    .left {
         text-align: left;
         padding: 20px 100px 20px 160px;
         font-family: sans-serif;
@@ -9,10 +12,6 @@
             color: gray;
             letter-spacing: 1px;
         }
-<<<<<<< HEAD
-=======
-        
->>>>>>> 91f7fe3f0cc79213838bcd8a671256d238c607c5
         p {
             color: #444;
         }
