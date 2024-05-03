@@ -1,191 +1,189 @@
-<<<<<<< HEAD
-    // LOGO
-    .explore {
-        width: 80%;
-        margin: 10% 10%;
-        .logo2 {
-            width: 98%;
-            margin-left: 0.5%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            .btn {
-                width: 21vh;
-                height: 5vh;
-                color: black;
-                background: none;
-                border-radius: 17px;
-                border: 1px solid black;
-                h {
-                    margin-left: 5%;
-                }
+.explore {
+    width: 80%;
+    margin: 10% 10%;
+    .logo2 {
+        width: 98%;
+        margin-left: 0.5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn {
+            width: 21vh;
+            height: 5vh;
+            color: black;
+            background: none;
+            border-radius: 17px;
+            border: 1px solid black;
+            h {
+                margin-left: 5%;
             }
         }
-        .cards2,
-        .cards3,
-        .cards4 {
+    }
+    .cards2,
+    .cards3,
+    .cards4 {
+        display: flex;
+        margin-bottom: 3%;
+        justify-content: center;
+        .left-2 {
+            margin: 8%;
             display: flex;
-            margin-bottom: 3%;
-            justify-content: center;
-            .left-2 {
-                margin: 8%;
-                display: flex;
-                align-items: center;
-                img {
-                    width: 15%;
-                    height: 5vh;
-                    margin: 0 -5%;
-                }
-                p {
-                    margin-left: 10%;
-                }
-            }
-            .right-2 {
-                width: 30%;
-                margin: -28% 68%;
-                text-align: center;
-                small {
-                    color: gray;
-                }
-            }
-            .card1,
-            .card2,
-            .card3,
-            .card4 {
-                width: 280px;
-                height: 55vh;
-                margin-top: 2%;
-                padding: 0 0px;
-                background: #fff;
-                border-radius: 12px;
-                box-shadow: 0px 0px 10px 0px #C5C5C5;
-            }
-            .card2,
-            .card3,
-            .card4 {
-                margin-left: 2%;
-            }
-            .img2>img {
-                width: 260px;
-                height: 32vh;
-                margin: 10px 3.5%;
-                border-radius: 15px;
+            align-items: center;
+            img {
+                width: 15%;
+                height: 5vh;
+                margin: 0 -5%;
             }
             p {
-                font-size: 17px;
-                margin: 6% 5%;
-                font-weight: bold;
+                margin-left: 10%;
             }
         }
-        .more {
-            width: 11%;
-            color: black;
-            margin: 3% 45%;
-            background: none;
-            border-radius: 20px;
-            border: 1px solid black;
+        .right-2 {
+            width: 30%;
+            margin: -28% 68%;
+            text-align: center;
+            small {
+                color: gray;
+            }
         }
-    }
-    
-    // INSTAL-------------------------------------------------------
-    .install {
-        width: 153vh;
-        height: 300px;
-        padding: 40px;
-        display: flex;
-        color: white;
-        margin: 15% 10.5% -2%;
-        background: black;
-        border-radius: 35px;
-        .one h1 {
-            width: 50%;
-            margin: 2% 4%;
-            line-height: 10vh;
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
+            width: 280px;
+            height: 55vh;
+            margin-top: 2%;
+            padding: 0 0px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px 0px #C5C5C5;
         }
-        button {
-            color: white;
-            cursor: pointer;
-            background: none;
-            border-radius: 10px;
-            margin: 8% 4%;
-            border: 1px solid yellow;
+        .card2,
+        .card3,
+        .card4 {
+            margin-left: 2%;
         }
-        img {
-            margin: -38% 10%;
-        }
-    }
-    
-    .footer {
-        width: 80%;
-        display: flex;
-        margin: 18% 10% 2%;
-        li {
-            font-size: 13px;
-            color: #6B6B6B;
-            list-style: none;
-        }
-    }
-    
-    .first {
-        width: 27%;
-        padding-right: 10%;
-        h1 {
-            margin: 15% 0 3%;
-        }
-        small {
-            color: #6B6B6B;
+        .img2>img {
+            width: 260px;
+            height: 32vh;
+            margin: 10px 3.5%;
+            border-radius: 15px;
         }
         p {
-            margin-top: 15%;
-            align-items: center;
-            span {
-                font-size: 20px;
-                font-weight: bold;
-                padding-right: 10px;
-            }
-            small {
-                font-size: 10px;
-            }
-        }
-    }
-    
-    .input[type=search] {
-        height: 60px;
-        width: 300px;
-        border: none;
-        outline: none;
-        padding: 22px;
-        font-size: 12px;
-        border-radius: 35px;
-        border: 1px solid #000000;
-    }
-    
-    .linear {
-        width: 8%;
-        height: 3vh;
-        font-size: 4vh;
-        padding: 15px;
-        position: relative;
-        border-radius: 50%;
-        background: black;
-        margin: -18.7% 80% 0;
-    }
-    
-    div {
-        .p {
-            color: white;
-            cursor: pointer;
+            font-size: 17px;
+            margin: 6% 5%;
             font-weight: bold;
-            margin: -1.8vh -10% 0;
         }
     }
-    
-    .second,
-    .third,
-    .fourth {
-        margin-right: 6%;
+    .more {
+        width: 11%;
+        color: black;
+        margin: 3% 45%;
+        background: none;
+        border-radius: 20px;
+        border: 1px solid black;
     }
-=======
+}
+
+// INSTAL-------------------------------------------------------
+.install {
+    width: 153vh;
+    height: 300px;
+    padding: 40px;
+    display: flex;
+    color: white;
+    margin: 15% 10.5% -2%;
+    background: black;
+    border-radius: 35px;
+    .one h1 {
+        width: 50%;
+        margin: 2% 4%;
+        line-height: 10vh;
+    }
+    button {
+        color: white;
+        cursor: pointer;
+        background: none;
+        border-radius: 10px;
+        margin: 8% 4%;
+        border: 1px solid yellow;
+    }
+    img {
+        margin: -38% 10%;
+    }
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    margin: 18% 10% 2%;
+    li {
+        font-size: 13px;
+        color: #6B6B6B;
+        list-style: none;
+    }
+}
+
+.first {
+    width: 27%;
+    padding-right: 10%;
+    h1 {
+        margin: 15% 0 3%;
+    }
+    small {
+        color: #6B6B6B;
+    }
+    p {
+        margin-top: 15%;
+        align-items: center;
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        small {
+            font-size: 10px;
+        }
+    }
+}
+
+.input[type=search] {
+    height: 60px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 22px;
+    font-size: 12px;
+    border-radius: 35px;
+    border: 1px solid #000000;
+}
+
+.linear {
+    width: 8%;
+    height: 3vh;
+    font-size: 4vh;
+    padding: 15px;
+    position: relative;
+    border-radius: 50%;
+    background: black;
+    margin: -18.7% 80% 0;
+}
+
+div {
+    .p {
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        margin: -1.8vh -10% 0;
+    }
+}
+
+.second,
+.third,
+.fourth {
+    margin-right: 6%;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -193,4 +191,3 @@ footer {
     padding: 0 200px;
     background: linear-gradient(to bottom, #fff, lightgray);
 }
->>>>>>> a918671eeda4704df3274ea05e46215e9084f30c
