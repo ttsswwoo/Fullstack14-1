@@ -1,9 +1,18 @@
 @import "../../../assets/styles/settings";
 .ownership-wrapper {
     @include grid($columns: 2, $size: 1fr);
+<<<<<<< HEAD
     @include wave($light, $gray-l);
     width: 1500px;
     margin: 0 auto;
+=======
+
+    width: 1500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding: 50px 0;
+
+>>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde
     .left {
         text-align: left;
         padding: 20px 100px 20px 160px;

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+=======
+>>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde
 import Eth from "../../../assets/icons/Etherium.png"
 
 function User(props) {

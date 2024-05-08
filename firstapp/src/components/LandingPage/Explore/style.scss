@@ -1,4 +1,40 @@
+<<<<<<< HEAD
 .logo {
     display: flex;
     justify-content: space-between;
 }
+=======
+@import "../../../assets/styles/settings";
+.explore-wrapper-in-landing {
+    width: 1450px;
+    margin: 0 auto;
+
+    .top-wrapper {
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        h1 {
+            float: left;
+            position: relative;
+            left: 150px;
+        }
+        select {
+            position: relative;
+            right: 150px;
+            float: right;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 15px 25px;
+            border-radius: 25px;
+        }
+    }
+    .cards {
+        @include grid($gap: 20px, $columns: 4);
+        margin-top: 100px;
+        padding: 0 100px;
+    }
+}
+>>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde

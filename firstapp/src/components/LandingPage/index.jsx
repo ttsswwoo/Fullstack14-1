@@ -3,11 +3,13 @@ import Ownership from "./Ownership"
 import TrendingArt from "./TrendingArt";
 import Collections from "./Collections";
 import Leaderboard from "./Leaderboard"
+import Explore from "./Explore"
 import TryApp from "../common/Try_App"
 import "./style.scss";
 
 function LandingPage() {
     return (
+<<<<<<< HEAD
         <>
             <main className="landing-page-wrapper">
                 <Ownership />
@@ -90,6 +92,16 @@ function LandingPage() {
                 <TryApp />
             </main >
         </>
+=======
+        <main className="landing-page-wrapper">
+            <Ownership />
+            <TrendingArt/>
+            <Collections/>
+            <Leaderboard />
+            <Explore/>
+            <TryApp/>
+        </main>
+>>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde
     );
 }
 
