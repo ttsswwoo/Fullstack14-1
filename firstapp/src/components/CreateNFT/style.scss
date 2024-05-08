@@ -1,168 +1,168 @@
-@import "../../assets/styles/settings";
-.nft-form-wrapper {
-    @include wave($light, $gray-l, $padding: 0 100px 300px 100px);
-    h1 {
-        text-align: center;
-    }
-    div.form {
-        @include grid($gap: 100px, $columns: 2, $align: flex-start);
-        padding: 50px;
-        form {
-            padding: 0 20px;
-            width: 600px;
-            .form-control {
-                margin: 20px 0;
-                label {
-                    font-weight: bold;
-                    display: block;
-                    margin-bottom: 5px;
-                }
-                small {
-                    display: block;
-                    margin: 10px 0;
-                    color: $gray;
-                }
-                input,
-                textarea {
-                    width: 100%;
-                    padding: 20px;
-                    border-radius: 10px;
-                    outline: none;
-                    border: none;
-                    background-color: $gray-l;
-                    margin-bottom: 5px;
-                    &::placeholder {
-                        color: $gray;
-                        font-family: sans-serif;
-                    }
-                }
-                textarea {
-                    height: 150px;
-                }
-                .nft-image-wrapper {
-                    position: relative;
-                    background-color: $gray-l;
-                    width: 100%;
-                    @include flex(column, center, center, 0);
-                    border-radius: 10px;
-                    <<<<<<< HEAD padding: 100px 0;
-                    =======padding: 50px 0;
-                    >>>>>>>db5b68be5615aea8d9fbc43555d4d1de5d1d2121 input[type="file"] {
-                        cursor: pointer;
-                        height: 150px;
-                        width: 100%;
-                        position: absolute;
-                        opacity: 0;
+    @import "../../assets/styles/settings";
+    .nft-form-wrapper {
+        @include wave($light, $gray-l, $padding: 0 100px 300px 100px);
+        h1 {
+            text-align: center;
+        }
+        div.form {
+            @include grid($gap: 100px, $columns: 2, $align: flex-start);
+            padding: 50px;
+            form {
+                padding: 0 20px;
+                width: 600px;
+                .form-control {
+                    margin: 20px 0;
+                    label {
+                        font-weight: bold;
+                        display: block;
+                        margin-bottom: 5px;
                     }
                     small {
+                        display: block;
+                        margin: 10px 0;
                         color: $gray;
                     }
-                }
-                .options-wrapper {
-                    background-color: $gray-l;
-                    @include flex(row, flex-start);
-                    padding: 10px;
-                    border-radius: 10px;
-                    position: relative;
-                    cursor: pointer;
-                    img {
-                        position: relative;
-                        top: 3px;
-                    }
-                    .option-value {
-                        img {
-                            position: absolute;
-                            right: 20px;
-                            top: 30px;
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 20px;
+                        border-radius: 10px;
+                        outline: none;
+                        border: none;
+                        background-color: $gray-l;
+                        margin-bottom: 5px;
+                        &::placeholder {
+                            color: $gray;
+                            font-family: sans-serif;
                         }
                     }
-                    .drp-content {
-                        position: absolute;
-                        z-index: 10;
-                        top: 65px;
-                        left: 0;
+                    textarea {
+                        height: 150px;
+                    }
+                    .nft-image-wrapper {
+                        position: relative;
                         background-color: $gray-l;
+                        width: 100%;
+                        @include flex(column, center, center, 0);
                         border-radius: 10px;
-                        box-shadow: 0 10px 20px $gray-t;
-                        display: none;
-                        div {
-                            padding: 10px 20px;
+                        padding: 100px 0;
+                        padding: 50px 0;
+                        input[type="file"] {
+                            cursor: pointer;
+                            height: 150px;
+                            width: 100%;
+                            position: absolute;
+                            opacity: 0;
+                        }
+                        small {
+                            color: $gray;
+                        }
+                    }
+                    .options-wrapper {
+                        background-color: $gray-l;
+                        @include flex(row, flex-start);
+                        padding: 10px;
+                        border-radius: 10px;
+                        position: relative;
+                        cursor: pointer;
+                        img {
+                            position: relative;
+                            top: 3px;
+                        }
+                        .option-value {
+                            img {
+                                position: absolute;
+                                right: 20px;
+                                top: 30px;
+                            }
+                        }
+                        .drp-content {
+                            position: absolute;
+                            z-index: 10;
+                            top: 65px;
+                            left: 0;
                             background-color: $gray-l;
                             border-radius: 10px;
-                            width: 100%;
-                            width: 560px;
-                            &:hover {
-                                background-color: $light;
-                                color: $black;
-                                cursor: pointer;
+                            box-shadow: 0 10px 20px $gray-t;
+                            display: none;
+                            div {
+                                padding: 10px 20px;
+                                background-color: $gray-l;
+                                border-radius: 10px;
+                                width: 100%;
+                                width: 560px;
+                                &:hover {
+                                    background-color: $light;
+                                    color: $black;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                    button {
+                        display: block;
+                        width: 100%;
+                        padding: 20px;
+                        font-size: 1.6em;
+                        cursor: pointer;
+                    }
+                }
+                .name-and-cost {
+                    @include grid();
+                    grid-template-columns: 4fr 1fr;
+                }
+            }
+            .demonstration {
+                padding: 30px;
+                border-radius: 20px;
+                background: linear-gradient(to bottom, $gray-l, $light);
+                h2 {
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                img {
+                    border-radius: 20px 20px 0 0;
+                }
+                .content {
+                    margin-top: 25px;
+                    @include grid($columns: 2, $gap: 20px, $align: flex-start);
+                    .left {
+                        b {
+                            display: block;
+                            text-align: left;
+                            font-size: 2em;
+                        }
+                        h2.author-info {
+                            margin: 15px 0;
+                            @include flex(row, flex-start);
+                        }
+                    }
+                    .right {
+                        padding-right: 20px;
+                        div,
+                        p {
+                            margin: 15px 0;
+                            text-align: right;
+                        }
+                        p {
+                            color: $gray;
+                        }
+                        div {
+                            padding: 20px 10px 0 0;
+                            font-size: 1.6em;
+                            font-family: sans-serif;
+                            font-weight: bold;
+                            img {
+                                margin-right: 10px;
+                                transform: scale(1.5);
                             }
                         }
                     }
                 }
-                button {
-                    display: block;
-                    width: 100%;
-                    padding: 20px;
-                    font-size: 1.6em;
-                    cursor: pointer;
-                }
             }
-            .name-and-cost {
-                @include grid();
-                grid-template-columns: 4fr 1fr;
+            .demonstration {
+                padding: 30px;
+                border-radius: 20px;
             }
-        }
-        .demonstration {
-            padding: 30px;
-            border-radius: 20px;
-            background: linear-gradient(to bottom, $gray-l, $light);
-            h2 {
-                text-align: center;
-                margin-bottom: 10px;
-            }
-            img {
-                border-radius: 20px 20px 0 0;
-            }
-            .content {
-                margin-top: 25px;
-                @include grid($columns: 2, $gap: 20px, $align: flex-start);
-                .left {
-                    b {
-                        display: block;
-                        text-align: left;
-                        font-size: 2em;
-                    }
-                    h2.author-info {
-                        margin: 15px 0;
-                        @include flex(row, flex-start);
-                    }
-                }
-                .right {
-                    padding-right: 20px;
-                    div,
-                    p {
-                        margin: 15px 0;
-                        text-align: right;
-                    }
-                    p {
-                        color: $gray;
-                    }
-                    div {
-                        padding: 20px 10px 0 0;
-                        font-size: 1.6em;
-                        font-family: sans-serif;
-                        font-weight: bold;
-                        img {
-                            margin-right: 10px;
-                            transform: scale(1.5);
-                        }
-                    }
-                }
-            }
-        }
-        .demonstration {
-            padding: 30px;
-            border-radius: 20px;
         }
     }
-}
