@@ -6,5 +6,4 @@ const initialState = {
     searchInput: '',
 }
 
-
 export { initialState, globalReducer, context }

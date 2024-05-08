@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-    @import "../../assets/styles/settings";
-    .nft-form-wrapper {
-        @include wave($light, $gray-l, $padding: 0 100px 300px 100px);
-        h1 {
-            text-align: center;
-        }
-        div.form {
-            @include grid($gap: 100px, $columns: 2, $align: flex-start);
-            padding: 50px;
-            form {
-                padding: 0 20px;
-                width: 600px;
-                .form-control {
-                    margin: 20px 0;
-                    label {
-                        font-weight: bold;
-                        display: block;
-                        margin-bottom: 5px;
-=======
 @import "../../assets/styles/settings";
-
 .nft-form-wrapper {
     h1 {
         position: absolute;
@@ -31,18 +10,14 @@
         text-align: center;
     }
     padding: 120px 100px;
-
     div.form {
         @include grid($gap: 100px, $columns: 2, $align: flex-start);
         padding: 50px;
-
         form {
             padding: 0 20px;
             width: 600px;
-
             .form-control {
                 margin: 20px 0;
-
                 label {
                     font-weight: bold;
                     display: block;
@@ -53,7 +28,6 @@
                     margin: 10px 0;
                     color: $gray;
                 }
-
                 input,
                 textarea {
                     width: 100%;
@@ -63,11 +37,9 @@
                     border: none;
                     background-color: $gray-l;
                     margin-bottom: 5px;
-
                     &::placeholder {
                         color: $gray;
                         font-family: sans-serif;
->>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde
                     }
                     small {
                         display: block;
@@ -217,67 +189,56 @@
                 border-radius: 20px;
             }
         }
-<<<<<<< HEAD
     }
-=======
-
-        .demonstration {
-            padding: 30px;
-            border-radius: 20px;
-            // background: linear-gradient(to bottom, $gray-l, $light);
-            background-color: $light;
-
-            // box-shadow only to the bottom
-            box-shadow: 0 10px 50px $gray-t;
-
-            h2 {
-                text-align: center;
-                margin-bottom: 10px;
-            }
-
-            img {
-                border-radius: 20px 20px 0 0;
-            }
-
-            .content {
-                margin-top: 25px;
-                @include grid($columns: 2, $gap: 20px, $align: flex-start);
-
-                .left {
-                    b {
-                        display: block;
-                        text-align: left;
-                        font-size: 2em;
-                    }
-                    h2.author-info {
-                        margin: 15px 0;
-                        @include flex(row, flex-start);
-                    }
+    .demonstration {
+        padding: 30px;
+        border-radius: 20px;
+        // background: linear-gradient(to bottom, $gray-l, $light);
+        background-color: $light;
+        // box-shadow only to the bottom
+        box-shadow: 0 10px 50px $gray-t;
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        img {
+            border-radius: 20px 20px 0 0;
+        }
+        .content {
+            margin-top: 25px;
+            @include grid($columns: 2, $gap: 20px, $align: flex-start);
+            .left {
+                b {
+                    display: block;
+                    text-align: left;
+                    font-size: 2em;
                 }
-
-                .right {
-                    padding-right: 20px;
-                    div,
-                    p {
-                        margin: 15px 0;
-                        text-align: right;
-                    }
-                    p {
-                        color: $gray;
-                    }
-                    div {
-                        padding: 20px 10px 0 0;
-                        font-size: 1.6em;
-                        font-family: sans-serif;
-                        font-weight: bold;
-                        img {
-                            margin-right: 10px;
-                            transform: scale(1.5);
-                        }
+                h2.author-info {
+                    margin: 15px 0;
+                    @include flex(row, flex-start);
+                }
+            }
+            .right {
+                padding-right: 20px;
+                div,
+                p {
+                    margin: 15px 0;
+                    text-align: right;
+                }
+                p {
+                    color: $gray;
+                }
+                div {
+                    padding: 20px 10px 0 0;
+                    font-size: 1.6em;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    img {
+                        margin-right: 10px;
+                        transform: scale(1.5);
                     }
                 }
             }
         }
     }
 }
->>>>>>> 6b83953db15d1c1f0b3359e91a8f6c56821a0dde
